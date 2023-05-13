@@ -7,8 +7,6 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-var err error
-
 func main() {
 
 	Config.NewTable()
